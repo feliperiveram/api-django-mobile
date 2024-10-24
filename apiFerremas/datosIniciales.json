@@ -1,0 +1,42 @@
+[
+    {
+        "model": "rest_usuario.tipousuario",
+        "pk": 1,
+        "fields": {
+            "idTipoUsuario": 1,
+            "nombreTipoUsuario": "Conductor"
+        }
+    },
+    {
+        "model": "rest_usuario.tipousuario",
+        "pk": 2,
+        "fields": {
+            "idTipoUsuario": 2,
+            "nombreTipoUsuario": "Pasajero"
+        }
+    },
+    {
+        "model": "rest_usuario.usuario",
+        "pk": 1,
+        "fields": {
+            "username": "usuario1",
+            "nombre": "Juan",
+            "apellido": "Pérez",
+            "correo": "juan.perez@example.com",
+            "password": "pass123", 
+            "tipo_usuario": 1
+        }
+    },
+    {
+        "model": "rest_usuario.usuario",
+        "pk": 2,
+        "fields": {
+            "username": "usuario2",
+            "nombre": "María",
+            "apellido": "Gómez",
+            "correo": "maria.gomez@example.com",
+            "password": "pass123", 
+            "tipo_usuario": 2
+        }
+    }
+]
