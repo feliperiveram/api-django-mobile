@@ -13,4 +13,7 @@ python manage.py makemigrations
 python manage.py migrate
 python manage.py loaddata datosIniciales.json
 
+Parte 3
+pip install django-cors-headers
+
 Levantar página y: http://127.0.0.1:8000/api/listar_usuarios (/api/listar_usuarios)

@@ -4,7 +4,7 @@
         "pk": 1,
         "fields": {
             "idTipoUsuario": 1,
-            "nombreTipoUsuario": "Conductor"
+            "nombreTipoUsuario": "Administrador"
         }
     },
     {
@@ -12,14 +12,14 @@
         "pk": 2,
         "fields": {
             "idTipoUsuario": 2,
-            "nombreTipoUsuario": "Pasajero"
+            "nombreTipoUsuario": "Usuario"
         }
     },
     {
         "model": "rest_usuario.usuario",
         "pk": 1,
         "fields": {
-            "username": "usuario1",
+            "username": "admin1",
             "nombre": "Juan",
             "apellido": "Pérez",
             "correo": "juan.perez@example.com",
@@ -31,10 +31,22 @@
         "model": "rest_usuario.usuario",
         "pk": 2,
         "fields": {
-            "username": "usuario2",
+            "username": "user1",
             "nombre": "María",
             "apellido": "Gómez",
             "correo": "maria.gomez@example.com",
+            "password": "pass123", 
+            "tipo_usuario": 2
+        }
+    },
+    {
+        "model": "rest_usuario.usuario",
+        "pk": 3,
+        "fields": {
+            "username": "user2",
+            "nombre": "José",
+            "apellido": "Kuvo",
+            "correo": "jose.kuvo@example.com",
             "password": "pass123", 
             "tipo_usuario": 2
         }
